@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Como quase cai num golpe no Facebook e como desviar deles"
+title: "RyanFarm"
 date: 2017-09-10 12:26:40
 image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_399,w_760/v1503153729/golpe_ghb84o.jpg'
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -9,7 +9,7 @@ tags:
 - Spring
 - jQuery
 twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-introduction: RyanFarm
+introduction: e-Commerce market web application
 ---
 
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
