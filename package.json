@@ -1,14 +1,14 @@
 {
-  "name": "thiagorossener.github.io",
+  "name": "leehyemi0468.github.io",
   "version": "1.0.0",
-  "description": "Blog pessoal de Thiago Rossener.",
+  "description": " Portfolio & Life ",
   "main": "gulpfile.js",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thiagorossener/thiagorossener.github.io.git"
+    "url": "git+https://github.com/leehyemi0468/leehyemi0468.github.io.git"
   },
   "keywords": [
     "jekyll",
@@ -18,12 +18,12 @@
     "gulp",
     "stylus"
   ],
-  "author": "Thiago Rossener",
+  "author": "Hyemi Lee",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thiagorossener/thiagorossener.github.io/issues"
+    "url": "https://github.com/leehyemi0468/leehyemi0468.github.io/issues"
   },
-  "homepage": "https://github.com/thiagorossener/thiagorossener.github.io#readme",
+  "homepage": "https://github.com/leehyemi0468/leehyemi0468.github.io#readme",
   "devDependencies": {
     "autoprefixer-stylus": "^0.14.0",
     "browser-sync": "^2.18.13",
