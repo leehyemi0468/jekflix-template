@@ -10,11 +10,16 @@ permalink: /about/
 ## About
 
 
-<h2>Skills</h2>
-<ul>html</ul>
-<ul>CSS Frameworks (Bootstrap)</ul>
-<ul>Javascript</ul>
-<ul>jQuery</ul>
-<ul>Git</ul>
-<ul>PLSQL</ul>
-<ul>Spring</ul>
+<h4>Skills</h4>
+<ul>
+<li>html</li>
+<li>CSS Frameworks (Bootstrap)</li>
+<li>Javascript</li>
+<li>jQuery</li>
+<li>Git</li>
+<li>PLSQL</li>
+<li>Java</li>
+<li>Spring</li>
+<li>JSP/Servlet</li>
+<li>Cloud Service (IaaS - AWS, Paas - CloudFoundry )</li>
+</ul>
