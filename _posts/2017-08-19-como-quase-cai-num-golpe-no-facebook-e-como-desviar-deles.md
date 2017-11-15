@@ -3,13 +3,13 @@ layout: post
 title: "RyanFarm"
 date: 2017-09-10 12:26:40
 image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_399,w_760/v1503153729/golpe_ghb84o.jpg'
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+description: e-Commerce market web application.
 category: 'team project'
 tags:
 - Spring
 - jQuery
-twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-introduction: e-Commerce market web application
+twitter_text: e-Commerce market web application.
+introduction: e-Commerce market web application.
 ---
 
 ## Intro
@@ -35,34 +35,11 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
 
 ## Skills
 
->  구현한 기술중 몇 가지를 설명해본다.
+>  구현한 기술중 핵심기술 몇 가지를 설명해본다.
 
-* OAuth
-* Google - Recaptcha
-
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](https://placehold.it/800x400 "Large example image")
-![placeholder](https://placehold.it/400x200 "Medium example image")
-![placeholder](https://placehold.it/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
+* OAuth를 이용한 회원가입 
+# Member Join Table
+> 일반회원계정과 SNS연동회원계정 2가지 가입절차로 나누어져 있는데 DataBase에는 한 테이블로 두 계정을 관리한다. 이 때 SNS연동회원의 ID는 이메일주소이며 최소정보만 기입하도록 구현한다. 
 <table>
   <thead>
     <tr>
@@ -96,6 +73,30 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
     </tr>
   </tbody>
 </table>
+
+
+* Google - Recaptcha
+
+
+Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+
+1. Vestibulum id ligula porta felis euismod semper.
+2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+3. Maecenas sed diam eget risus varius blandit sit amet non magna.
+
+Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+
+Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+## Images
+
+Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
+
+![placeholder](https://placehold.it/800x400 "Large example image")
+![placeholder](https://placehold.it/400x200 "Medium example image")
+![placeholder](https://placehold.it/200x200 "Small example image")
+
+
 
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
