@@ -1,7 +1,7 @@
 # Site Settings
-title: Ham Blog | Web Developer
+title: Hyemi's Blog | Web Developer
 email: leehyemi0468@gmail.com
-description: Some text about your blog.
+description: Portfolio & Blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leehyemi0468.github.io/index.html" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
@@ -15,10 +15,8 @@ disqus_username: disqus_username
 # Remove the item if you don't need it
 github_username: leehyemi0468
 facebook_username: facebook_username
-twitter_username: twitter_username
 instagram_username: instagram_username
 linkedin_username: linkedin_username
-medium_username: medium_username
 
 # Build settings
 markdown: kramdown
