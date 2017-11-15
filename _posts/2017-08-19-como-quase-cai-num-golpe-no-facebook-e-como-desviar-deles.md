@@ -36,7 +36,7 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
 ## Skills
 * OAuth를 이용한 회원가입 
 
- 일반회원계정과 SNS연동회원계정 2가지 가입절차로 나누어져 있는데 DataBase에는 한 테이블로 두 계정을 관리한다. 이 때 SNS연동회원의 ID는 이메일주소이며 최소정보만 기입하도록 구현한다. 
+ 일반회원계정과 SNS연동회원계정 2가지 login절차로 나누어져 있는데 DataBase에는 한 테이블로 두 계정을 관리한다. 
  
  1. 구현화면 
  ![placeholder](https://leehyemi0468.github.io/assets/img/loginform.bmp "Large example image")
@@ -79,13 +79,14 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
 
 
 * Google - Recaptcha
-
-
+SNS연동회원의  ID는 이메일주소이며 최소정보만 기입하도록 구현한다. 
+1. 구현화면 
+ ![placeholder](https://leehyemi0468.github.io/assets/img/memberform.bmp "Large example image")
 
 
 -----
 
-Want to see something else added? <a href="https://github.com/kyungso/Farm_Spring">Open an issue.</a>
+Want to see our project in Git? <a href="https://github.com/kyungso/Farm_Spring">Open an issue.</a>
 
 
 
