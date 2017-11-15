@@ -34,12 +34,9 @@ adder(2, 6);
 Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
 
 ## Skills
-
->  구현한 기술중 핵심기술 몇 가지를 설명해본다.
-
 * OAuth를 이용한 회원가입 
-# Member Join Table
-> 일반회원계정과 SNS연동회원계정 2가지 가입절차로 나누어져 있는데 DataBase에는 한 테이블로 두 계정을 관리한다. 이 때 SNS연동회원의 ID는 이메일주소이며 최소정보만 기입하도록 구현한다. 
+ **Member Join Table**
+ 일반회원계정과 SNS연동회원계정 2가지 가입절차로 나누어져 있는데 DataBase에는 한 테이블로 두 계정을 관리한다. 이 때 SNS연동회원의 ID는 이메일주소이며 최소정보만 기입하도록 구현한다. 
 <table>
   <thead>
     <tr>
@@ -73,7 +70,7 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
     </tr>
   </tbody>
 </table>
-
+<img scr="https://leehyemi0468.github.io/assets/img/loginform.bmp" itemprop="image">
 
 * Google - Recaptcha
 
