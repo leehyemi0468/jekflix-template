@@ -81,7 +81,7 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
 * Google - Recaptcha
 SNS연동회원의  ID는 이메일주소이며 최소정보만 기입하도록 구현한다. 
 1. 구현화면 
- ![placeholder](https://leehyemi0468.github.io/assets/img/memberform.bmp "Large example image")
+ ![placeholder](https://leehyemi0468.github.io/assets/img/joinform.bmp "Large example image")
 
 
 -----
