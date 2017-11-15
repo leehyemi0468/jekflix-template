@@ -18,6 +18,7 @@ permalink: /about/
 <li>jQuery</li>
 <li>Git</li>
 <li>PLSQL</li>
+ <li>MyBatis</li>
 <li>Java</li>
 <li>Spring</li>
 <li>JSP/Servlet</li>
