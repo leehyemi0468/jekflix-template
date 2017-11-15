@@ -1,9 +1,9 @@
 # Site Settings
-title: Hyemi lee | Web Developer
+title: Ham Blog | Web Developer
 email: leehyemi0468@gmail.com
 description: Some text about your blog.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://leehyemi0468.github.io/" # the base hostname & protocol for your site
+url: "https://leehyemi0468.github.io/index.html" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
