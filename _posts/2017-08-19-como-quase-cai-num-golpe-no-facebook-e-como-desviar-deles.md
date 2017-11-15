@@ -70,7 +70,8 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
     </tr>
   </tbody>
 </table>
-<img scr="https://leehyemi0468.github.io/assets/img/loginform.bmp" itemprop="image">
+
+![placeholder](https://leehyemi0468.github.io/assets/img/loginform.bmp "Large example image")
 
 * Google - Recaptcha
 
