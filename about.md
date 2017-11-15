@@ -10,9 +10,11 @@ permalink: /about/
 ## About
 
 
-Web Developer
-Born in 1990
-Living in Il-San
-Majored in Computer Science
-
-
+<h2>Skills</h2>
+<ul>html</ul>
+<ul>CSS Frameworks (Bootstrap)</ul>
+<ul>Javascript</ul>
+<ul>jQuery</ul>
+<ul>Git</ul>
+<ul>PLSQL</ul>
+<ul>Spring</ul>
