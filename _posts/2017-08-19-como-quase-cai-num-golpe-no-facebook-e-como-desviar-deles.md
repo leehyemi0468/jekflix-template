@@ -35,8 +35,13 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
 
 ## Skills
 * OAuth를 이용한 회원가입 
- **Member Join Table**
+
  일반회원계정과 SNS연동회원계정 2가지 가입절차로 나누어져 있는데 DataBase에는 한 테이블로 두 계정을 관리한다. 이 때 SNS연동회원의 ID는 이메일주소이며 최소정보만 기입하도록 구현한다. 
+ 
+ 1. 구현화면 
+ ![placeholder](https://leehyemi0468.github.io/assets/img/loginform.bmp "Large example image")
+ 
+ 2. MemberSchema
 <table>
   <thead>
     <tr>
@@ -71,36 +76,16 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
   </tbody>
 </table>
 
-![placeholder](https://leehyemi0468.github.io/assets/img/loginform.bmp "Large example image")
+
 
 * Google - Recaptcha
 
 
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
 
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](https://placehold.it/800x400 "Large example image")
-![placeholder](https://placehold.it/400x200 "Medium example image")
-![placeholder](https://placehold.it/200x200 "Small example image")
-
-
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 -----
 
-Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
+Want to see something else added? <a href="https://github.com/kyungso/Farm_Spring">Open an issue.</a>
 
 
 
