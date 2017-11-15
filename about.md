@@ -5,7 +5,7 @@ description: Some description.
 permalink: /about/
 ---
 
-<img itemprop="image" class="img-rounded" src="leehyemi0468.github.io/assets/img/me.jpg" alt="Contect me!">
+<img itemprop="image" class="img-rounded" src="https://leehyemi0468.github.io/assets/img/me.jpg" alt="Contect me!">
 
 ## About
 
