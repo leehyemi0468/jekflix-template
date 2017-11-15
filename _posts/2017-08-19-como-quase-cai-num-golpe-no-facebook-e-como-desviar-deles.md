@@ -12,33 +12,9 @@ twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 introduction: e-Commerce market web application
 ---
 
-**Intro**
-> 2017년 7월, 저렴하고 영양도 풍부하여 식탁에 거의 빠질 일이 없는 계란의 살충제파동은 우리에게 큰 충격을 주었다. 먹거리안전에 대해 다시 생각해 보다가 이런 웹서비스는 없을까 해서 RyanFarm을 개발하게 되었다. 기존 농산물 전자상거래사이트는 많이 존재한다. 옥션이나 지마켓같은 대형마켓은 판매자와 구매자의 거래가 이루어지지만 판매자의 정보를 믿을 수 없다는 단점이 있고 일반 농산물 거래사이트는 개인사업자가 직접올리고 약간의 인증절차가 있기 때문에 믿을 수는 있지만 개인간의 거래는 이루어 질 수 없는 단점이 있다. RyanFarm은 이러한 두 사이트 SWOT기법을 적용하여 C2C, B2C는 물론 인증을 걸친 사업자의 상품을 RyanFarm이 직접 올리고 관리,인증하는 서비스를 제공하는 웹싸이트를 개발하였다. 
+##Intro
+>   2017년 7월, 저렴하고 영양도 풍부하여 식탁에 거의 빠질 일이 없는 계란의 살충제파동은 우리에게 큰 충격을 주었다. 먹거리안전에 대해 다시 생각해 보다가 이런 웹서비스는 없을까 해서 **RyanFarm**을 개발하게 되었다. 기존 농산물 전자상거래사이트는 많이 존재한다. 옥션이나 지마켓같은 대형마켓은 판매자와 구매자의 거래가 이루어지지만 판매자의 정보를 믿을 수 없다는 단점이 있고 일반 농산물 거래사이트는 개인사업자가 직접올리고 약간의 인증절차가 있기 때문에 믿을 수는 있지만 개인간의 거래는 이루어 질 수 없는 단점이 있다. **RyanFarm**은 이러한 두 사이트 SWOT기법을 적용하여 C2C, B2C는 물론 인증을 걸친 사업자의 상품을 **RyanFarm**이 직접 올리고 관리,인증하는 서비스를 제공하는 웹싸이트를 개발하였다. 
 
-
-
-## Inline HTML elements
-
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
-
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Thiago Rossener</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
-
-Most of these elements are styled by browsers with few modifications on our part.
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 
 ## Code
 
@@ -57,13 +33,13 @@ adder(2, 6);
 
 Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
 
-## Lists
+## Skills
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+>  구현한 기술중 몇 가지를 설명해본다.
 
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
+* OAuth
+* Google - Recaptcha
+
 
 Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
 
