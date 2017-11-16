@@ -63,7 +63,7 @@ introduction: e-Commerce market web application.
 
 2 Google - Recaptcha
 
-
+> 금전적인 거래가 이루어지는 사이트이다보니 보안을 생각하여 가입자동프로그램을 사용하는 봇을 필터링해주는 captcha기술을 일반계정 회원가입란에 사용하였다. View에서 봇인지 아닌지 검증을 하고 구글에서 받은 리턴값을 Controller에서 검사한다. 겉으로 보기엔 일반 체크박스와 다를 것이 없지만 이미 구글의 패턴분석으로 검증한 결과인 것. 만약 같은 IP에서 여러번 가입을 하는 등의 이상한 움직임을 recaptcha가 발견하면 검증단계를 한번 더 거치게 된다.
 
 * 구현화면 
 
@@ -73,29 +73,25 @@ introduction: e-Commerce market web application.
 
 ```java
 
-		 URL url = new URL("https://www.google.com/recaptcha/api/siteverify?secret=시크릿키&response="+응답값);
-        	 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-         	conn.setRequestMethod("POST");
-         	conn.setRequestProperty("User-Agent", "Mozilla/5.0");
- 		conn.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
-		
- 		conn.setDoOutput(true);
-		DataOutputStream wr = new DataOutputStream(conn.getOutputStream());
-		
-		BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-		String inputLine;
-		StringBuffer response = new StringBuffer();
+	 URL url = new URL("https://www.google.com/recaptcha/api/siteverify?secret=시크릿키&response="+응답값);
+         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+         ...header 설정...
 
-		while ((inputLine = in.readLine()) != null) {
-			response.append(inputLine);
-		}
-
-		JsonReader jsonReader = Json.createReader(new StringReader(response.toString()));
-		JsonObject jsonObject = jsonReader.readObject();
-
-		if(jsonObject.getBoolean("success") == true) {
-			Insert Query...
-			}
+	//출력
+	DataOutputStream wr = new DataOutputStream(conn.getOutputStream());
+	BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+	String inputLine;
+	StringBuffer response = new StringBuffer();
+	while ((inputLine = in.readLine()) != null) {
+		response.append(inputLine);
+	}
+	
+	//String을 Json으로 Parsing
+	JsonReader jsonReader = Json.createReader(new StringReader(response.toString()));
+	JsonObject jsonObject = jsonReader.readObject();
+	if(jsonObject.getBoolean("success") == true) {
+		Insert Member...
+	}
 			
 ```
 
