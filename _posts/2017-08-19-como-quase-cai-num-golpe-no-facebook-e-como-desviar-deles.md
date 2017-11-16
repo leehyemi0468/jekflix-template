@@ -69,7 +69,35 @@ introduction: e-Commerce market web application.
 
  ![placeholder](https://leehyemi0468.github.io/assets/img/joinform.bmp "Midium example image")
 
+* 주요 Code
 
+```java
+
+		 URL url = new URL("https://www.google.com/recaptcha/api/siteverify?secret=시크릿키&response="+응답값);
+        	 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+         	conn.setRequestMethod("POST");
+         	conn.setRequestProperty("User-Agent", "Mozilla/5.0");
+ 		conn.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
+		
+ 		conn.setDoOutput(true);
+		DataOutputStream wr = new DataOutputStream(conn.getOutputStream());
+		
+		BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+		String inputLine;
+		StringBuffer response = new StringBuffer();
+
+		while ((inputLine = in.readLine()) != null) {
+			response.append(inputLine);
+		}
+
+		JsonReader jsonReader = Json.createReader(new StringReader(response.toString()));
+		JsonObject jsonObject = jsonReader.readObject();
+
+		if(jsonObject.getBoolean("success") == true) {
+			Insert Query...
+			}
+			
+```
 
 
 
