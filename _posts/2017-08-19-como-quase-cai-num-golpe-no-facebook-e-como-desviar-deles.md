@@ -39,19 +39,40 @@ introduction: e-Commerce market web application.
  </tbody>
 </table>
 
- >> SNS연동회원의 가입시 최소정보만 기입하도록 구현하고 필요할 때마다 사용자에게 작성하도록 유도한다.
+ > SNS연동회원의 가입시 최소정보만 기입하도록 구현하고 필요할 때마다 사용자에게 작성하도록 유도한다.
 
 * 주요 Code
 
 ```js
-// Example can be run directly in your JavaScript console
+// 1. JS로 Google SDK 끌어오기
+<meta name="google-signin-scope" content="profile email">
+<meta name="google-signin-client_id" content="83117513079-2k0pf4h20vdph70qps0mi8a8l1d9k9h1.apps.googleusercontent.com">
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
+// 1. JS로 Naver SDK 끌어오기
+<script type="text/javascript" src="https://static.nid.naver.com/js/naverLogin_implicit-1.0.3.js" charset="utf-8"></script>
 
-// Call the function
-adder(2, 6);
-// > 8
+
+
+// 2. Naver - Login Button 생성하기
+   <div id="naver_id_login"></div>
+				  <script type="text/javascript">
+       var naver_id_login = new naver_id_login("--키값--", "--callback 값--");
+       var state = naver_id_login.getUniqState();
+       naver_id_login.setButton("green", 3, 40);
+       naver_id_login.setDomain("--로그인 창이 뜰 주소--");
+       naver_id_login.setState(state);
+       naver_id_login.init_naver_id_login();
+   </script>
+
+// 2. Google - Login Button 생성하기
+		<div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+   <script>
+      function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+        location.href = "url/맵핑값?state=".concat(googleUser.getAuthResponse().id_token,"&저장할 키값=",벨류...);
+       };
+    </script>  
 ```
 
 2 Google - Recaptcha
