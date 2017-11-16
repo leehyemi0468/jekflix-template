@@ -34,10 +34,11 @@ introduction: e-Commerce market web application.
   </thead>
  <tbody>
   <tr><td>일반계정</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
-   <tr><td>SNS연동계정</td><td>Email=ID로 사용</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+   <tr><td>SNS연동계정</td><td>Email=ID로 사용</td><td></td><td>받아옴</td><td></td><td></td><td></td><td></td><td>일반계정과 구분</td><td>연동사이트에서 받은 고유키값
+</td><td></td></tr>
  </tbody>
 </table>
- >>SNS연동회원의 ID는 email로 저장하며 가입시 최소정보만 기입하도록 구현하고 필요할 때마다 사용자에게 작성하도록 유도한다.
+ >> SNS연동회원의 가입시 최소정보만 기입하도록 구현하고 필요할 때마다 사용자에게 작성하도록 유도한다.
 
 
 2 Google - Recaptcha
