@@ -25,17 +25,17 @@ introduction: e-Commerce market web application.
  
   ![placeholder](https://leehyemi0468.github.io/assets/img/loginform.bmp "Midium example image")
  
- * DB의 MemberTable
+ * MemberTable
 <table>
   <thead>
     <tr> <th>필수여부</th>
-      <th>Userid</th><th>Passwd</th><th>Username</th><th>Addr</th><th>Phone</th><th>Email</th><th>Joinday</th><th>jointype</th><th>sns_id</th><th>isSeller</th>
+      <th>Userid</th><th>Passwd</th><th>Username</th><th>Joinday</th><th>jointype</th><th>sns_id</th>
     </tr>
   </thead>
  <tbody>
-  <tr><td>일반계정</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
-   <tr><td>SNS연동계정</td><td>Email=ID로 사용</td><td></td><td>받아옴</td><td></td><td></td><td></td><td></td><td>일반계정과 구분</td><td>연동사이트에서 받은 고유키값
-</td><td></td></tr>
+  <tr><td>일반계정</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
+   <tr><td>SNS연동계정</td><td>Email사용</td><td></td><td>받아옴</td><td></td><td></td><td></td><td>일반계정과 구분</td><td>연동사이트에서 받은 고유키값
+</td></tr>
  </tbody>
 </table>
 
@@ -49,25 +49,11 @@ introduction: e-Commerce market web application.
 <meta name="google-signin-client_id" content="83117513079-2k0pf4h20vdph70qps0mi8a8l1d9k9h1.apps.googleusercontent.com">
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 
-// 1. JS로 Naver SDK 끌어오기
-<script type="text/javascript" src="https://static.nid.naver.com/js/naverLogin_implicit-1.0.3.js" charset="utf-8"></script>
-
-
-
-// 2. Naver - Login Button 생성하기
-   <div id="naver_id_login"></div>
-				  <script type="text/javascript">
-       var naver_id_login = new naver_id_login("--키값--", "--callback 값--");
-       var state = naver_id_login.getUniqState();
-       naver_id_login.setButton("green", 3, 40);
-       naver_id_login.setDomain("--로그인 창이 뜰 주소--");
-       naver_id_login.setState(state);
-       naver_id_login.init_naver_id_login();
-   </script>
-
 // 2. Google - Login Button 생성하기
 		<div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
-   <script>
+		
+//3.  callback 함수
+   <script>
       function onSignIn(googleUser) {
         var profile = googleUser.getBasicProfile();
         location.href = "url/맵핑값?state=".concat(googleUser.getAuthResponse().id_token,"&저장할 키값=",벨류...);
