@@ -99,7 +99,8 @@ introduction: e-Commerce market web application.
 
 
 ## Outro
->  Git Team 사용이 처음이라 conflict Error가 자꾸  서로 push/pull 할 때 초반에 애를 먹었다. 하지만 서로 Part를 나누어 각자의 맡은부분에 좀 더 집중하여 완성도를 높이는 장점도 발견할 수 있는 경험이었다. UI/UX 를 더 수정하고 현재 SMS API를 제공해주던 곳이 서비스를 중단한 상태라 다른 API를 사용하는 방향으로 보안해야 할 것 같다.
+> 빅데이터  이용사용자별로맞춤서비스제공하면더완성도
+UI/UX 를 더 수정하고 현재 SMS API를 제공해주던 곳이 서비스를 중단한 상태라 다른 API를 사용하는 방향으로 보안해야 할 것 같다. Git Team 사용이 처음이라 conflict Error가 자꾸  서로 push/pull 할 때 초반에 애를 먹었다. 하지만 서로 Part를 나누어 각자의 맡은부분에 좀 더 집중하여 완성도를 높이는 장점도 발견할 수 있는 경험이었다. 
 
 -----
 
