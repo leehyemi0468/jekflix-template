@@ -23,19 +23,19 @@ introduction: e-Commerce market web application.
  
  * 구현화면 
  
- ![placeholder](https://leehyemi0468.github.io/assets/img/loginform.bmp "Large example image")
+ ![placeholder](https://leehyemi0468.github.io/assets/img/loginform.bmp "Midium example image")
  
- * DB의 MemberSchema
+ * DB의 MemberTable
+ SNS연동회원의  ID는 이메일주소이며 최소정보만 기입하도록 구현한다. 
 <table>
   <thead>
     <tr> <th>필수여부</th>
-      <th>Userid</th><th>Passwd</th><th>Username</th><th>Post</th><th>Addr</th><th>Phone</th><th>Email</th><th>Point</th>
-                   <th>Buycnt</th><th>Joinday</th><th>jointype</th><th>sns_id</th><th>isSeller</th>
+      <th>Userid</th><th>Passwd</th><th>Username</th><th>Addr</th><th>Phone</th><th>Email</th><th>Joinday</th><th>jointype</th><th>sns_id</th><th>isSeller</th>
     </tr>
   </thead>
  <tbody>
   <tr><td>일반계정</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
-   <tr><td>SNS연동계정</td><td>○(Email=ID로 사용)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+   <tr><td>SNS연동계정</td><td>Email=ID로 사용</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
   </tr>
  </tbody>
 </table>
@@ -44,7 +44,7 @@ introduction: e-Commerce market web application.
 
 * Google - Recaptcha
 
-SNS연동회원의  ID는 이메일주소이며 최소정보만 기입하도록 구현한다. 
+
 
 1. 구현화면 
 
