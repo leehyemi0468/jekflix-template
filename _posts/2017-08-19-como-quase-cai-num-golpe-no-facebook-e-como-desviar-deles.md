@@ -40,6 +40,17 @@ introduction: e-Commerce market web application.
 </table>
  >> SNS연동회원의 가입시 최소정보만 기입하도록 구현하고 필요할 때마다 사용자에게 작성하도록 유도한다.
 
+*주요 Code
+```js
+// Example can be run directly in your JavaScript console
+
+// Create a function that takes two arguments and returns the sum of those arguments
+var adder = new Function("a", "b", "return a + b");
+
+// Call the function
+adder(2, 6);
+// > 8
+```
 
 2 Google - Recaptcha
 
