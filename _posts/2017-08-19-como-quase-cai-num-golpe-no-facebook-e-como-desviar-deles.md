@@ -38,9 +38,11 @@ introduction: e-Commerce market web application.
 </td><td></td></tr>
  </tbody>
 </table>
+
  >> SNS연동회원의 가입시 최소정보만 기입하도록 구현하고 필요할 때마다 사용자에게 작성하도록 유도한다.
 
-*주요 Code
+* 주요 Code
+
 ```js
 // Example can be run directly in your JavaScript console
 
