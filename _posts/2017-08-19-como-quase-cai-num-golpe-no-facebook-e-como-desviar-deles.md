@@ -2,7 +2,7 @@
 layout: post
 title: "RyanFarm"
 date: 2017-09-10 12:26:40
-image: 'leehyemi0468.github.io/assets/img/index.bmp'
+image: 'https://leehyemi0468.github.io/assets/img/index.bmp'
 description: e-Commerce market web application.
 category: 'team project'
 tags:
@@ -17,23 +17,28 @@ introduction: e-Commerce market web application.
 
 
 ## Skills
-* OAuth를 이용한 회원가입 
+1. OAuth를 이용한 회원가입 
 
  일반회원계정과 SNS연동회원계정 2가지 login절차로 나누어져 있는데 DataBase에는 한 테이블로 두 계정을 관리한다. 
  
- 1. 구현화면 
+ * 구현화면 
  
  ![placeholder](https://leehyemi0468.github.io/assets/img/loginform.bmp "Large example image")
  
- 2. MemberSchema
+ * DB의 MemberSchema
 <table>
   <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
+    <tr> <th>필수여부</th>
+      <th>Userid</th><th>Passwd</th><th>Username</th><th>Post</th><th>Addr</th><th>Phone</th><th>Email</th><th>Point</th>
+                   <th>Buycnt</th><th>Joinday</th><th>jointype</th><th>sns_id</th><th>isSeller</th>
     </tr>
   </thead>
+ <tbody>
+  <tr>
+   <td>일반계정</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td>
+   <td>SNS연동계정</td><td>○(Email=ID로 사용)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+  </tr>
+ </tbody>
 </table>
 
 
