@@ -2,7 +2,7 @@
 layout: post
 title: "RyanFarm"
 date: 2017-09-10 12:26:40
-image: 'http://leehyemi0468.github.io/blob/master/assets/img/index.bmp'
+image: 'http://leehyemi0468.github.io/assets/img/index.bmp'
 description: e-Commerce market web application.
 category: 'team project'
 tags:
