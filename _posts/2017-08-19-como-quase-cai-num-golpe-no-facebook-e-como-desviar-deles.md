@@ -34,9 +34,8 @@ introduction: e-Commerce market web application.
     </tr>
   </thead>
  <tbody>
-  <tr>
-   <td>일반계정</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td>
-   <td>SNS연동계정</td><td>○(Email=ID로 사용)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+  <tr><td>일반계정</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
+   <tr><td>SNS연동계정</td><td>○(Email=ID로 사용)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
   </tr>
  </tbody>
 </table>
