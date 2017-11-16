@@ -19,7 +19,7 @@ introduction: e-Commerce market web application.
 ## Skills
 1. OAuth를 이용한 회원가입
 
-일반회원계정과 SNS연동회원계정 2가지 login절차로 나누어져 있는데 DataBase에는 한 테이블로 두 계정을 관리한다. 
+> 일반회원계정과 SNS연동회원계정 2가지 login절차로 나누어져 있는데 DataBase에는 한 테이블로 두 계정을 관리한다. 
  
  * 구현화면 
  
@@ -95,10 +95,11 @@ introduction: e-Commerce market web application.
 			
 ```
 
+3. Q&A Board Paging 처리
 
 
 ## Outro
->  보완점
+>  Git Team 사용이 처음이라 conflict Error가 자꾸  서로 push/pull 할 때 초반에 애를 먹었다. 하지만 서로 Part를 나누어 각자의 맡은부분에 좀 더 집중하여 완성도를 높이는 장점도 발견할 수 있는 경험이었다. UI/UX 를 더 수정하고 현재 SMS API를 제공해주던 곳이 서비스를 중단한 상태라 다른 API를 사용하는 방향으로 보안해야 할 것 같다.
 
 -----
 
