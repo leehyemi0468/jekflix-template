@@ -42,14 +42,20 @@ introduction: e-Commerce market web application.
 
 
 
-* Google - Recaptcha
+2 Google - Recaptcha
 
 
 
-1. 구현화면 
+* 구현화면 
 
- ![placeholder](https://leehyemi0468.github.io/assets/img/joinform.bmp "Large example image")
+ ![placeholder](https://leehyemi0468.github.io/assets/img/joinform.bmp "Midium example image")
 
+
+
+
+
+## Outro
+>  보완점
 
 -----
 
