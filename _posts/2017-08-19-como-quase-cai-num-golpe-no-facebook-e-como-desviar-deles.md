@@ -33,8 +33,8 @@ introduction: e-Commerce market web application.
     </tr>
   </thead>
  <tbody>
-  <tr><td>일반계정</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
-   <tr><td>SNS연동계정</td><td>Email사용</td><td></td><td>받아옴</td><td></td><td></td><td></td><td>일반계정과 구분</td><td>연동사이트에서 받은 고유키값
+  <tr><td>일반계정</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td>></tr>
+   <tr><td>SNS연동계정</td><td>Email사용</td><td></td><td>받아옴</td><td></td><td>일반계정과 구분</td><td>연동사이트에서 받은 고유키값
 </td></tr>
  </tbody>
 </table>
