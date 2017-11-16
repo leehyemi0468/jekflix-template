@@ -23,10 +23,10 @@ introduction: e-Commerce market web application.
  
  * 구현화면 
  
-  <dt>![placeholder](https://leehyemi0468.github.io/assets/img/loginform.bmp "Midium example image")</dt>
+  ![placeholder](https://leehyemi0468.github.io/assets/img/loginform.bmp "Midium example image")
  
  * DB의 MemberTable
- SNS연동회원의 ID는 email로 저장하며 최소정보만 기입하도록 구현하고 필요할
+ SNS연동회원의 ID는 email로 저장하며 가입시 최소정보만 기입하도록 구현하고 필요할 때마다 사용자에게 작성하도록 유도한다.
 <table>
   <thead>
     <tr> <th>필수여부</th>
