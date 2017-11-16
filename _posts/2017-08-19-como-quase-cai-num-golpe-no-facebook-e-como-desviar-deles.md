@@ -17,13 +17,13 @@ introduction: e-Commerce market web application.
 
 
 ## Skills
-1. OAuth를 이용한 회원가입 
+<dd>1. OAuth를 이용한 회원가입 </dd>
 
- 일반회원계정과 SNS연동회원계정 2가지 login절차로 나누어져 있는데 DataBase에는 한 테이블로 두 계정을 관리한다. 
+ <dt>일반회원계정과 SNS연동회원계정 2가지 login절차로 나누어져 있는데 DataBase에는 한 테이블로 두 계정을 관리한다. </dt>
  
- * 구현화면 
+ <dt>* 구현화면 </dt>
  
- ![placeholder](https://leehyemi0468.github.io/assets/img/loginform.bmp "Midium example image")
+  <dt>![placeholder](https://leehyemi0468.github.io/assets/img/loginform.bmp "Midium example image")</dt>
  
  * DB의 MemberTable
  SNS연동회원의  ID는 이메일주소이며 최소정보만 기입하도록 구현한다. 
