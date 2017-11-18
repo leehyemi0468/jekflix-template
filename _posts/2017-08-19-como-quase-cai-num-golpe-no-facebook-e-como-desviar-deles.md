@@ -23,7 +23,7 @@ introduction: e-Commerce market web application.
  
  * 구현화면 
  
-  ![placeholder](https://leehyemi0468.github.io/assets/img/loginform.bmp "Midium example image")
+  ![placeholder](https://leehyemi0468.github.io/assets/img/board_img/ryanfarm/loginform.bmp "Small example image")
  
  * MemberTable
 <table>
@@ -67,7 +67,7 @@ introduction: e-Commerce market web application.
 
 * 구현화면 
 
- ![placeholder](https://leehyemi0468.github.io/assets/img/joinform.bmp "Midium example image")
+ ![placeholder](https://leehyemi0468.github.io/assets/img/board_img/ryanfarm/joinform.bmp "Small example image")
 
 * 주요 Code
 
