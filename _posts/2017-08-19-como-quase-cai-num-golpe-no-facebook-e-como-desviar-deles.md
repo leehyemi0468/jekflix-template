@@ -2,7 +2,7 @@
 layout: post
 title: "RyanFarm"
 date: 2017-09-10 12:26:40
-image: 'https://leehyemi0468.github.io/assets/img/index.bmp'
+image: 'https://leehyemi0468.github.io/assets/img/board_img/ryanfarm/index.bmp'
 description: e-Commerce market web application.
 category: 'team project'
 tags:
@@ -94,6 +94,8 @@ introduction: e-Commerce market web application.
 	}
 			
 ```
+
+
 
 3. Q&A Board Paging 처리
 
