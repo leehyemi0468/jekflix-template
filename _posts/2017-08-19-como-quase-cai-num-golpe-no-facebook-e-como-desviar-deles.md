@@ -99,7 +99,7 @@ introduction: e-Commerce market web application.
 
 3. Q&A Board Paging, 1-Depth Replying  처리
 
->설명
+>  로그인한 사용자가 쓴 질문글과 Admin이 쓴 답변글만 볼 수 있도록 구현이 되었다.  또 답변을 달 기 전까진 문의글을 수정, 삭제 할 수 있지만 답변이 달린 뒤에는 수정,삭제를 하지 못하게 구현했다. 관리자의 편의와 빠른 답변처리를 위해 댓글은 1번까지만 달 수 있도록 구현했고 사용자가 추가질문을 원하면 새 문의글을 다시 등록해야 한다. Q&A Table에 Group_No Column로 질문,답변글 묶기 / Status Column로 처리중,답변완료 구분을 하였고 List나열시 order by qna_no , group_no로 정렬을 해주었다.
 
 * 구현화면 
 
@@ -107,6 +107,37 @@ introduction: e-Commerce market web application.
  ![placeholder](https://leehyemi0468.github.io/assets/img/board_img/ryanfarm/paging_reply.jpg "Small example image")
 
 * 주요 Code
+```
+<c:set var="curPage" value="${qnaList.curPage}" />
+<c:set var="perPage" value="${QnaPageDTO.getPerPage()}" />
+<c:set var="totalCount" value="${qnaList.totalCount}" />
+<fmt:parseNumber var="totalNum" integerOnly="true"	value="${qnaList.getList().size()/perPage}" />
+<c:if test="${totalCount%perPage!=0}">
+<c:set var="totalNum" value="${totalNum+1}"/>
+</c:if>
+<c:if test="${startPage <1 }">
+	<c:set var="startPage" value="1" />
+</c:if>
+
+<!-- totalNum == 총 페이지수, totalCount = 총 레코드 갯수 -->
+<!-- 현재 페이지번호의 블럭번호 구하기 -->	
+<fmt:parseNumber var="curBlock" integerOnly="true" value="${(curPage/perPage)+1 }" />
+<!-- 시작페이지번호 구하기  -->	
+<fmt:parseNumber var="startPage" integerOnly="true"	value="${(curBlock - 1)*perPage+1}" />
+<!-- 마지막페이지번호 구하기 -->	
+<fmt:parseNumber var="endPage" integerOnly="true" value="${(startPage +perPage)-1 }" />
+<c:if test="${endPage > totalNum }">
+	<c:set var="endPage" value="${totalNum}" />
+</c:if>
+<c:forEach begin="${startPage}" end="${totalNum}" varStatus="status">
+<c:if test="${curPage==status.index}">
+${status.index }
+</c:if>
+<c:if test="${curPage!=status.index }">
+<a href="QNAList?userid=${sessionScope.login.userid}&curPage=${status.index}">${status.index}</a>
+</c:if>
+</c:forEach>
+```
 
 
 4. Mailing을 통한 비밀번호갱신
@@ -146,14 +177,6 @@ introduction: e-Commerce market web application.
 			Transport.send(msg);
 		}
 	}	
-	//random number 생성
-	public  String RandomNum() {
-		StringBuffer buffer=new StringBuffer();
-		for(int i=0; i<=6; i++) {
-			int n=(int)(Math.random()*10);
-			buffer.append(n);
-		}return buffer.toString();
-	}
 ```
 
 
