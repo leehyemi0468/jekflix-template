@@ -99,6 +99,11 @@ introduction: e-Commerce market web application.
 
 3. Q&A Board Paging, 1-Depth Replying  처리
 
+* 구현화면 
+
+ ![placeholder](https://leehyemi0468.github.io/assets/img/board_img/ryanfarm/paging_reply.jpg "Small example image")
+
+
 
 
 4. Mail을통한비밀번호갱신
