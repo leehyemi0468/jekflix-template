@@ -104,6 +104,12 @@ introduction: e-Commerce market web application.
 4. Mail을통한비밀번호갱신
 
 
+* 구현화면 
+
+ ![placeholder](https://leehyemi0468.github.io/assets/img/board_img/ryanfarm/findPw_mail.bmp "Small example image")
+
+
+
 ## Outro
 >  동적서비스를 해주는 e-commerce싸이트들의 기본기능들은 어느정도 구현된 것 같다. 여기에 빅데이터를 공부해서 적용하면 사용자별로 맞춤 검색서비스를 제공하여 검색결과들을 글자만 같은 결과들을 전부 보여주는 것이 아니라 한번 더 필터링 해주거나,  대기업 상거래싸이트에서 많이 볼 수 있는 검색기록들과 관련있는 광고들을 보여주는 등 완성도높은 웹사이트를 만들 수 있을 것 이다. UI/UX 를 더 수정하고 현재 SMS API를 제공해주던 곳이 서비스를 중단한 상태라 다른 API를 사용하는 방향으로 보안해야 할 것 같다. Git Team 사용이 처음이라 conflict Error가 자꾸 나서 서로 push/pull 할 때 초반에 애를 먹었다. 하지만 서로 Part를 나누어 각자의 맡은부분에 좀 더 집중하여 완성도를 높이는 장점도 발견할 수 있는 경험이었다. 
 
