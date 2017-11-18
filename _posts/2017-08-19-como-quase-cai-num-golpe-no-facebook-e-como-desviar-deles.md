@@ -99,7 +99,7 @@ introduction: e-Commerce market web application.
 
 3. Q&A Board Paging, 1-Depth Replying  처리
 
->  로그인한 사용자가 쓴 질문글과 Admin이 쓴 답변글만 볼 수 있도록 구현이 되었다.  또 답변을 달 기 전까진 문의글을 수정, 삭제 할 수 있지만 답변이 달린 뒤에는 수정,삭제를 하지 못하게 구현했다. 관리자의 편의와 빠른 답변처리를 위해 댓글은 1번까지만 달 수 있도록 구현했고 사용자가 추가질문을 원하면 새 문의글을 다시 등록해야 한다. Q&A Table에 Group_No Column로 질문,답변글 묶기 / Status Column로 처리중,답변완료 구분을 하였고 List나열시 order by qna_no , group_no로 정렬을 해주었다.
+>  로그인한 사용자가 쓴 질문글과 Admin이 쓴 답변글만 볼 수 있도록 구현이 되었다.  또 답변을 달 기 전까진 문의글을 수정, 삭제 할 수 있지만 답변이 달린 뒤에는 수정,삭제를 하지 못하게 구현했다. 관리자의 편의와 빠른 답변처리를 위해 댓글은 1번까지만 달 수 있도록 구현했고 사용자가 추가질문을 원하면 새 문의글을 다시 등록해야 한다.
 
 * 구현화면 
 
@@ -116,6 +116,8 @@ introduction: e-Commerce market web application.
   <tr><td>문의,답변글 구분없이 전부 가져야 하는 고유값</td><td>질문,답변글 묶기</td><td> 처리중,답변완료 구분</td></tr>
  </tbody>
 </table>
+ > Q&A Table에 Group_No Column로 질문,답변글 묶기 / Status Column로 처리중,답변완료 구분을 하였고 List나열시 order by qna_no , group_no로 정렬을 해주었다.
+
 
 * 주요 Code
 ```js
