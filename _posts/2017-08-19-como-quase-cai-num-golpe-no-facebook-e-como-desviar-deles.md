@@ -116,10 +116,12 @@ introduction: e-Commerce market web application.
   <tr><td>문의,답변글 구분없이 전부 가져야 하는 고유값</td><td>질문,답변글 묶기</td><td> 처리중,답변완료 구분</td></tr>
  </tbody>
 </table>
+
  > Q&A Table에 Group_No Column로 질문,답변글 묶기 / Status Column로 처리중,답변완료 구분을 하였고 List나열시 order by qna_no , group_no로 정렬을 해주었다.
 
 
 * 주요 Code
+
 ```js
 <c:set var="curPage" value="${qnaList.curPage}" />
 <c:set var="perPage" value="${QnaPageDTO.getPerPage()}" />
@@ -163,6 +165,7 @@ ${status.index }
  ![placeholder](https://leehyemi0468.github.io/assets/img/board_img/ryanfarm/findPw_mail.bmp "Small example image")
 
 * 주요 Code
+
 ```java
 	private void sendEMail(String email, String authNum) {
 		String host = "smtp.gmail.com";
