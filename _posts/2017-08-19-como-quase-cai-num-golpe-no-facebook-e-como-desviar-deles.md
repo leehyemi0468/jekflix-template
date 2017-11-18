@@ -103,11 +103,22 @@ introduction: e-Commerce market web application.
 
 * 구현화면 
 
-
  ![placeholder](https://leehyemi0468.github.io/assets/img/board_img/ryanfarm/paging_reply.jpg "Small example image")
 
+* QnaTable
+<table>
+  <thead>
+    <tr>
+      <th>Qna_No</th><th>Group_No</th><th>Status</th>
+    </tr>
+  </thead>
+ <tbody>
+  <tr><td>문의,답변글 구분없이 전부 가져야 하는 고유값</td><td>질문,답변글 묶기</td><td> 처리중,답변완료 구분</td></tr>
+ </tbody>
+</table>
+
 * 주요 Code
-```
+```js
 <c:set var="curPage" value="${qnaList.curPage}" />
 <c:set var="perPage" value="${QnaPageDTO.getPerPage()}" />
 <c:set var="totalCount" value="${qnaList.totalCount}" />
@@ -150,7 +161,7 @@ ${status.index }
  ![placeholder](https://leehyemi0468.github.io/assets/img/board_img/ryanfarm/findPw_mail.bmp "Small example image")
 
 * 주요 Code
-```
+```java
 	private void sendEMail(String email, String authNum) {
 		String host = "smtp.gmail.com";
 		String fromName="RyanFarm";
