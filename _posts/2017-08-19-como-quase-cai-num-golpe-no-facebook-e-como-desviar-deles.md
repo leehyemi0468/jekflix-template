@@ -61,7 +61,7 @@ introduction: e-Commerce market web application.
     </script>  
 ```
 
-2 Google - Recaptcha
+2. Google - Recaptcha
 
 > 금전적인 거래가 이루어지는 사이트이다보니 보안을 생각하여 가입자동프로그램을 사용하는 봇을 필터링해주는 captcha기술을 일반계정 회원가입란에 사용하였다. View에서 봇인지 아닌지 검증을 하고 구글에서 받은 리턴값을 Controller에서 검사한다. 겉으로 보기엔 일반 체크박스와 다를 것이 없지만 이미 구글의 패턴분석으로 검증한 결과인 것. 만약 같은 IP에서 여러번 가입을 하는 등의 이상한 움직임을 recaptcha가 발견하면 검증단계를 한번 더 거치게 된다.
 
@@ -99,20 +99,62 @@ introduction: e-Commerce market web application.
 
 3. Q&A Board Paging, 1-Depth Replying  처리
 
+>설명
+
 * 구현화면 
+
 
  ![placeholder](https://leehyemi0468.github.io/assets/img/board_img/ryanfarm/paging_reply.jpg "Small example image")
 
+* 주요 Code
 
 
+4. Mailing을 통한 비밀번호갱신
 
-4. Mail을통한비밀번호갱신
+>  초반에는 비밀번호를 보여주는 식으로 구현하였지만 여러홈페이지마다 한 비밀번호를 쓰는 유저들도 있기 때문에 메일로 인증을 하고 인증된 사용자에게는 새 비밀번호를 갱신하는 방향으로 바꾸었다. server에서 random number 6자리를 생성하여 메일로 보내주고 view에서 사용자가 적은 번호와 server에서 생성한 난수가 일치하는지 체크한다.  SNS연동사용자는 애초에 비밀번호를 사용하지 않기 때문에 이 서비스가 필요없다.
 
 
 * 구현화면 
 
  ![placeholder](https://leehyemi0468.github.io/assets/img/board_img/ryanfarm/findPw_mail.bmp "Small example image")
 
+* 주요 Code
+```
+	private void sendEMail(String email, String authNum) {
+		String host = "smtp.gmail.com";
+		String fromName="RyanFarm";
+		
+		String content="인증번호 [" + authNum + "]";
+		try {
+			Properties props=new Properties();
+			props.put("mail.smtp.starttls.enable", "true");
+				...설정...
+			props.setProperty("mail.smtp.soketFactory.class", "javax.net.ssl.SSLSocketFactory");
+			
+			Session session=Session.getInstance(props, new javax.mail.Authenticator() {
+				protected PasswordAuthentication getPasswordAuthentication() {
+					return new javax.mail.PasswordAuthentication("leehyemi0468@gmail.com", "비밀번호");	
+				}
+			});
+			
+			Message msg=new MimeMessage(session);
+			msg.setFrom(new InternetAddress(from,MimeUtility.encodeText(
+					fromName,"UTF-8","B")));
+			InternetAddress[] address1= { new InternetAddress(to1)};
+			msg.setRecipients(Message.RecipientType.TO, address1);
+			...
+			Transport.send(msg);
+		}
+	}	
+	//random number 생성
+	public  String RandomNum() {
+		StringBuffer buffer=new StringBuffer();
+		for(int i=0; i<=6; i++) {
+			int n=(int)(Math.random()*10);
+			buffer.append(n);
+		}return buffer.toString();
+	}
+```
 
 
 ## Outro
