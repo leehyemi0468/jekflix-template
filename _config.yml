@@ -1,13 +1,13 @@
 # Site Settings
-title: Hyemi's Blog | Web Developer
+title: Hyemi Lee | Web Developer
 email: leehyemi0468@gmail.com
-description: Portfolio & Blog
+description: Portfolio 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leehyemi0468.github.io/index.html" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: Hyemi's Blog 
+username: Hyemi Lee 
 user_description: Contect Me!
 disqus_username: disqus_username
 
