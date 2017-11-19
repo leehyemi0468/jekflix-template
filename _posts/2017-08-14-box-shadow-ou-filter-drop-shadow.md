@@ -18,7 +18,6 @@ introduction: Vue.js developing...
 
 ## Code
 
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
 
 ```js
 // Example can be run directly in your JavaScript console
