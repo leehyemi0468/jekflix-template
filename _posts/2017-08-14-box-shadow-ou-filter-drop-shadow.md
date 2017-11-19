@@ -2,7 +2,7 @@
 layout: post
 title: "Vue.js developing..."
 date: 2017-08-14 22:55:45
-image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1502757949/o-sombra_xyw4wq.jpg'
+image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWg9S1ySmh0PrfubQPKRTBmeYmLy38DuDmLRo6vyBEZkZfGM_N'
 description: Vue.js developing....
 category: 'INDIVISUAL PROJECT'
 tags:
