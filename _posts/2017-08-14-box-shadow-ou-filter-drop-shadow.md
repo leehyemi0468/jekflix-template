@@ -12,7 +12,7 @@ twitter_text: Vue.js developing...
 introduction: Vue.js developing...
 ---
 
-{% include footer.html %}
+{% include comment-lottery.html %}
 ## Inline HTML elements
 
 
