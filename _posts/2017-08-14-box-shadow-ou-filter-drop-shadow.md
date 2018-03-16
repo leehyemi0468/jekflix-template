@@ -1,34 +1,18 @@
 ---
 layout: post
-title: "Vue.js developing..."
+title: "facebook comments lottery..."
 date: 2017-08-14 22:55:45
 image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWg9S1ySmh0PrfubQPKRTBmeYmLy38DuDmLRo6vyBEZkZfGM_N'
-description: Vue.js developing....
+description: facebook comments lottery
 category: 'INDIVISUAL PROJECT'
 tags:
-- backend
-- Vue.js
-twitter_text: Vue.js developing...
-introduction: Vue.js developing...
+- frontend
+- facebook
+twitter_text: facebook comments lottery
+introduction: facebook comments lottery
 ---
 
 {% include comment-lottery.html %}
-## Inline HTML elements
-
-
-## Code
-
-
-```js
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-```
 
 -----
 
